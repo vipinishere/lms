@@ -1,12 +1,11 @@
 import { createContext, useEffect, useState } from 'react';
-import { dummyCourses } from '../assets/assets';
 import { useNavigate } from 'react-router-dom';
 import humanizeDuration from 'humanize-duration';
 import { useAuth, useUser } from '@clerk/clerk-react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-export const AppContext = createContext();
+const AppContext = createContext();
 
 export const AppContextProvider = (props) => {
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
@@ -118,14 +117,12 @@ export const AppContextProvider = (props) => {
 
   useEffect(() => {
     fetchAllCourses();
-    fetchUserEnrolledCourses();
-    // console.log("Context Mounted");
   }, []);
 
   useEffect(() => {
     if (user) {
       fetchUserData();
-      fetchUserEnrolledCourses;
+      fetchUserEnrolledCourses();
     }
   }, [user]);
 
@@ -151,3 +148,4 @@ export const AppContextProvider = (props) => {
 };
 
 export default AppContextProvider;
+export { AppContext };
