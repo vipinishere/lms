@@ -4,8 +4,8 @@ A full-stack Learning Management System (LMS) built with the MERN stack that ena
 
 > **Live Demo**
 >
-> - 🌐 **Frontend:** [https://your-frontend-url.vercel.app](https://lms-frontend-jet-beta.vercel.app/)
-> - 🚀 **Backend API:** https://your-backend-url.vercel.app
+> - 🌐 **Frontend:** [Live Demo](https://lms-frontend-jet-beta.vercel.app/)
+> - 🚀 **Backend API:** [Backend API](https://lms-backend-nine-ashy.vercel.app/)
 
 ---
 
@@ -190,10 +190,10 @@ GET    /users/profile
 
 Both frontend and backend are deployed independently on **Vercel**.
 
-| Service | Deployment |
-|----------|------------|
-| Frontend | Vercel |
-| Backend API | Vercel |
+| Service     | Deployment |
+| ----------- | ---------- |
+| Frontend    | Vercel     |
+| Backend API | Vercel     |
 
 ---
 
