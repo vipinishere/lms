@@ -1,7 +1,7 @@
 {
   "name": "lms",
   "version": "1.0.0",
-  "description": "this is the backend for my lms(minor project at 3rd sem of MCA)(created by Manali & Vipin)",
+  "description": "this is the backend for my lms(minor project at 3rd sem of MCA)(created by Vipin)",
   "main": "server.js",
   "type": "module",
   "scripts": {

@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-gray-300 text-center">
-        Copyright 2025 @MinorProject(Manali & Vipin). All Right Reserved.
+        Copyright 2025 @MinorProject(Vipin). All Right Reserved.
       </p>
     </footer>
   );
